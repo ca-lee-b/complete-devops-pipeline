@@ -2,6 +2,6 @@ version: "3.9"
 
 services:
   client:
-    build: ../client
+    image: ghcr.io/ca-lee-b/complete-devops-pipeline/client:latest
     ports:
       - "3000:80"
