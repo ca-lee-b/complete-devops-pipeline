@@ -8,6 +8,9 @@ jobs:
   build-and-publish:
     name: Build Client Docker Image
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
 
     steps:
       - name: Checkout repository
